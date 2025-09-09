@@ -1,0 +1,56 @@
+* {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1{
+  text-align:center;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.content {
+  background-color: pink;
+  display:flex;
+  flex-wrap:wrap;
+  aspect-ratio: 1 / 1;
+  flex: 1 0 720px;
+}
+
+.grid-point{
+  aspect-ratio : 1 / 1;
+  box-sizing:border-box; 
+  border:1px solid black;
+}
+
+.filled{
+  background-color: black;
+}
+
+.center-content{
+  display:flex;
+  justify-content:space-between;
+}
+
+.options{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:24px;
+  padding:64px 12px;
+  width:100px;
+}
+
+.info-box{
+  border: 1px solid black;
+  height:100px;
+  text-align:center;
+}
+
+button {
+  background-color: white;
+  padding:6px;
+}

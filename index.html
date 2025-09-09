@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <h1>Etch-a-Sketch</h1>
+  <div class="center-content">
+    <div class="options">
+      <form>
+        <fieldset>
+          <div>
+            <input type="radio" id="drawmode1" name="mode" value="paint" checked="true"/>
+            <label for="drawmode1">Paint</label>
+
+            <input type="radio" id="drawmode2" name="mode" value="erase" />
+            <label for="drawmode2">Erase</label>
+          </div>
+        </fieldset>
+      </form>
+      <button id="resize_button">Resize</button>
+      <button id="clear_button">Clear</button>
+    </div>
+    <div class="content"></div>
+    <div class="options">
+      <div class="info-box">
+        <h4>Size:</h4>
+        <p id="size_field"></p>
+      </div>
+    </div>
+  </div>
+</html>
